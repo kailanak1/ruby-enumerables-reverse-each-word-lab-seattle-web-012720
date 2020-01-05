@@ -2,8 +2,8 @@ def reverse_each_word(sentence)
   array = [] 
   sentence.split 
   array << sentence
-  array.each do |x| 
+  reversed_sentence = array.each do |x| 
   x.reverse
-  puts x 
+  puts reversed_sentence 
 end 
 end 
